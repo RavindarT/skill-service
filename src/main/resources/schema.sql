@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS skills (
+    id UUID PRIMARY KEY,
+    name VARCHAR(120) NOT NULL,
+    description VARCHAR(2000)
+);
